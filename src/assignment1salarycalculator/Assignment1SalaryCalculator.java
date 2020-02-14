@@ -16,6 +16,14 @@ public class Assignment1SalaryCalculator {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        mySalary get = new mySalary();
+        get.calcHourlyWage(75000);
+        get.calcSalary(36);
+        get.calctaxes(75000,0.07);
+        get.afterTax(75000, 36.06);
+        
+        
     }
     
 }
